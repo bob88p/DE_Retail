@@ -4,18 +4,6 @@ This repository contains a data engineering pipeline and analysis for retail sal
 
 ## Project Structure
 
-DE\*Retail/
-├─ DataSources/ # Raw CSV source files
-├─ cleaned_data/ # Cleaned CSV files
-├─ analysis/ # Output csv for all querys
-├─ to make database loaded and analysis
-├─ project_DE.ipynb # Jupyter notebook preprocessing and connect database
-
-├─ exportQuery.py # Python script to make analysis folder(csv)
-├─ requirements.txt # Python dependencies
-├─ .gitignore
-└─ README.md
-
 ## Features
 
 - Clean and standardize retail CSV datasets
@@ -24,3 +12,12 @@ DE\*Retail/
 - Save cleaned data as CSVs and upload to SQL Server
 - Optional Jupyter notebook
 - analysis requierments
+
+# what i do
+
+- det Raw CSV source files
+- then Cleaned CSV files by pandas
+- then go to mssql and create database and make relations
+- then connect to mssql and load data
+- then in mssql i analysis data by sql
+- then in exportQuery i get outOutput from query to csv
