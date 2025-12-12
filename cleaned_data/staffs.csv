@@ -1,0 +1,11 @@
+staff_id,first_name,last_name,email,phone,active,store_id,manager_id
+1,fabiola,jackson,fabiola.jackson@bikes.shop,unknown,True,-1,-1
+2,mireya,unknown,mireya.copeland@bikes.shop,(831) 555-5555,True,1,1
+3,genna,serrano,genna.serrano@bikes.shop,(831) 555-5556,True,1,2
+4,virgie,wiggins,virgie.wiggins@bikes.shop,(831) 555-5557,True,1,2
+5,jannette,david,jannette.david@bikes.shop,(516) 379-4444,True,2,1
+6,marcelene,boyer,unknown,(516) 379-4445,True,2,5
+7,venita,daniel,venita.daniel@bikes.shop,unknown,True,2,5
+8,kali,vargas,kali.vargas@bikes.shop,(972) 530-5555,True,3,1
+9,layla,terrell,layla.terrell@bikes.shop,(972) 530-5556,True,3,7
+10,bernardine,houston,bernardine.houston@bikes.shop,(972) 530-5557,True,3,7
