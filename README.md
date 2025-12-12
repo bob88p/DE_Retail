@@ -5,12 +5,18 @@ This repository contains a data engineering pipeline and analysis for retail sal
 ## Project Structure
 
 Retail-Data-Pipeline/
-├── DataSources/ # Raw CSV files
-├── cleaned_data/ # Cleaned datasets
-├── project_DE.ipynb # extract and cleand to export  
-├── database.sql # SQL database schema
-├── analysis_query.sql # requierments queries
-└── README.md # This file
+├── DataSources/ 
+ # Raw CSV files
+├── cleaned_data/ 
+# Cleaned datasets
+├── project_DE.ipynb 
+# extract and cleand to export  
+├── database.sql 
+# SQL database schema
+├── analysis_query.sql 
+# requierments queries
+└── README.md 
+# This file
 
 ## Features
 
