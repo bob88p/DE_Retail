@@ -4,11 +4,11 @@ This repository contains a data engineering pipeline and analysis for retail sal
 
 ## Project Structure
 
-DE*Retail/
+DE\*Retail/
 ├─ DataSources/ # Raw CSV source files
 ├─ cleaned_data/ # Cleaned CSV files
 ├─ analysis/ # Output csv for all querys
-|* SQL \_\_ to make database loaded and analysis
+├─ to make database loaded and analysis
 ├─ project_DE.ipynb # Jupyter notebook preprocessing and connect database
 
 ├─ exportQuery.py # Python script to make analysis folder(csv)
