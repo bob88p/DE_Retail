@@ -5,10 +5,11 @@ from  sqlalchemy  import create_engine , text
 import os
 
 connection_string = (
-    "mssql+pyodbc://kok:1234@localhost/Retail_DB"
+    "mssql+pyodbc://SOSO:1234@localhost/Retaill_DB"
     "?driver=ODBC+Driver+17+for+SQL+Server"
-  )
+)
 engine = create_engine(connection_string)
+
 
 
 
@@ -19,7 +20,7 @@ queries = {
 "Top_products":  
 """
 SELECT TOP(10) OI.product_id ,P.product_name , SUM(OI.quantity) AS quantity_product
-FROM Order_items AS OI
+FROM OrderItems AS OI
 
 JOIN Products AS P
 ON P.product_id = OI.product_id
@@ -28,28 +29,30 @@ GROUP BY OI.product_id ,P.product_name
 
 ORDER BY quantity_product  DESC;
 
+
 """,
 
 " top_customers_spending"  :
 """
-SELECT TOP(5) O.customer_id ,C.full_name, SUM(OI.total_price) AS spending
+SELECT TOP(5) O.customer_id ,C.full_name, SUM(OT.sums_money) AS spending
 
-FROM Order_items AS OI
+FROM OrderTotals AS OT
 JOIN Orders AS O
-ON  O.order_id = OI.order_id
+ON  O.order_id = OT.order_id
 JOIN Customers AS C
 ON C.customer_id = O.customer_id
 GROUP BY  O.customer_id , C.full_name
 ORDER BY spending DESC ;
+
 """,
 
 " Revenue_store  ":
 """
-SELECT O.store_id, S.store_name ,ROUND(SUM(OI.total_price),0) AS Revenue 
+SELECT O.store_id, S.store_name ,SUM(OT.sums_money) AS Revenue 
 
-FROM Order_items AS OI
+FROM OrderTotals AS OT
 JOIN Orders AS O
-ON  O.order_id = OI.order_id
+ON  O.order_id = OT.order_id
 JOIN Stores AS S
 ON S.store_id = O.store_id 
 GROUP BY   O.store_id , S.store_name
@@ -57,27 +60,26 @@ ORDER BY Revenue DESC ;
 """,
 " Revenue_category  ":
     """
-SELECT P.category_id, C.category_name ,ROUND(SUM(OI.total_price),0) AS Revenue_Category 
+SELECT P.category_id, P.category_name ,SUM(OI.total_price) AS Revenue_Category 
 
-FROM Order_items AS OI
+FROM OrderItems AS OI
 JOIN Products AS P
 ON  P.product_id = OI.product_id
-JOIN Categories AS C
-ON C.category_id = P.category_id
-GROUP BY  P.category_id, C.category_name
+GROUP BY  P.category_id, P.category_name
 ORDER BY Revenue_Category DESC ;
 
 """,
   "Monthly_sales"  :
 """
 SELECT   YEAR(O.order_date) AS years ,  MONTH(O.order_date) AS months ,
-ROUND(SUM(OI.total_price),0) AS Revenue_Month
-FROM Order_items AS OI
+ROUND(SUM(OT.sums_money),0) AS Revenue_Month
+FROM OrderTotals AS OT
 JOIN Orders AS O
-ON  O.order_id = OI.order_id
+ON  O.order_id = OT.order_id
 WHERE O.order_date IS NOT NULL
 GROUP BY  MONTH(O.order_date) , YEAR(O.order_date)
 ORDER BY years , months ;
+
 
 """,
 
@@ -107,6 +109,7 @@ GROUP BY  S.store_id ,ST.store_name
 
 ORDER BY quantity_product DESC ;
 
+
 """,
 " Staff_Performance"  :
 """
@@ -119,15 +122,16 @@ ON O.staff_id = S.staff_id
 GROUP BY O.staff_id ,S.full_name
 
 ORDER BY Count_order DESC ;
+
 """,
 
 
 " Best_staff ":
  """   
-SELECT TOP(1) O.staff_id , S.full_name , ROUND(SUM(OI.total_price),0) AS total_sales
-FROM Order_items AS OI
+SELECT TOP(1) O.staff_id , S.full_name , SUM(OT.sums_money) AS total_sales
+FROM OrderTotals AS OT
 JOIN Orders AS O 
-ON O.order_id = OI.order_id
+ON O.order_id = OT.order_id
 JOIN Staffs AS S
 ON S.staff_id = O.staff_id
 GROUP BY O.staff_id , S.full_name
@@ -146,20 +150,24 @@ LEFT JOIN Orders AS O
 ON  C.customer_id = O.customer_id
 WHERE O.order_id IS NULL 
 
+
 """ ,
 " Average_spending  " :
 
 """
-SELECT  O.customer_id ,C.full_name, ROUND(SUM(OI.total_price),0) AS avg_spending
 
-FROM Order_items AS OI
+
+SELECT  O.customer_id ,C.full_name, SUM(OT.sums_money) AS avg_spending
+
+FROM OrderTotals AS OT
 JOIN Orders AS O
-ON  O.order_id = OI.order_id
+ON  O.order_id = OT.order_id
 JOIN Customers AS C 
 ON C.customer_id = O.customer_id
 
 GROUP BY  O.customer_id , C.full_name
 ORDER BY avg_spending DESC ;
+
 
  """
     
@@ -172,13 +180,13 @@ result_query = {}
 for name , query in queries.items():
     result_query[name] = pd.read_sql(query , engine)
     
-os.makedirs("analysis", exist_ok=True)
+os.makedirs("analysis1", exist_ok=True)
     
 
 
 def export_csv():
   for name, df in result_query.items():
-    df.to_csv(f"analysis/{name}.csv", index=False)
+    df.to_csv(f"analysis1/{name}.csv", index=False)
     
     
     

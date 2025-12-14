@@ -1,0 +1,703 @@
+{
+    " Average_spending  ": [
+        {
+            "customer_id": 19,
+            "full_name": "lizzette_stein",
+            "avg_spending": 451839.2
+        },
+        {
+            "customer_id": 730,
+            "full_name": "andria_rivers",
+            "avg_spending": 432702.54
+        },
+        {
+            "customer_id": 1226,
+            "full_name": "qiana_jackson",
+            "avg_spending": 198805.01
+        },
+        {
+            "customer_id": 1002,
+            "full_name": "cami_williamson",
+            "avg_spending": 123367.22
+        },
+        {
+            "customer_id": 222,
+            "full_name": "anya_contreras",
+            "avg_spending": 80696.69
+        },
+        {
+            "customer_id": 1342,
+            "full_name": "lekisha_pope",
+            "avg_spending": 52778.12
+        },
+        {
+            "customer_id": 94,
+            "full_name": "sharyn_hopkins",
+            "avg_spending": 34807.93
+        },
+        {
+            "customer_id": 10,
+            "full_name": "pamelia_newman",
+            "avg_spending": 33634.24
+        },
+        {
+            "customer_id": 75,
+            "full_name": "abby_gamble",
+            "avg_spending": 32802.99
+        },
+        {
+            "customer_id": 6,
+            "full_name": "lyndsey_bean",
+            "avg_spending": 32675.06
+        },
+        {
+            "customer_id": 16,
+            "full_name": "emmitt_sanchez",
+            "avg_spending": 31925.87
+        },
+        {
+            "customer_id": 73,
+            "full_name": "melanie_hayes",
+            "avg_spending": 31913.68
+        },
+        {
+            "customer_id": 1,
+            "full_name": "debra_burks",
+            "avg_spending": 27888.17
+        },
+        {
+            "customer_id": 3,
+            "full_name": "tameka_fisher",
+            "avg_spending": 27202.64
+        },
+        {
+            "customer_id": 61,
+            "full_name": "elinore_aguilar",
+            "avg_spending": 25636.43
+        },
+        {
+            "customer_id": 93,
+            "full_name": "corrina_sawyer",
+            "avg_spending": 25612.69
+        },
+        {
+            "customer_id": 122,
+            "full_name": "shena_carter",
+            "avg_spending": 24890.62
+        },
+        {
+            "customer_id": 1224,
+            "full_name": "abram_copeland",
+            "avg_spending": 24607.02
+        },
+        {
+            "customer_id": 9,
+            "full_name": "genoveva_baldwin",
+            "avg_spending": 24433.87
+        },
+        {
+            "customer_id": 12,
+            "full_name": "robby_sykes",
+            "avg_spending": 24305.13
+        },
+        {
+            "customer_id": 85,
+            "full_name": "teofila_fischer",
+            "avg_spending": 23195.06
+        },
+        {
+            "customer_id": 43,
+            "full_name": "mozelle_carter",
+            "avg_spending": 23049.04
+        },
+        {
+            "customer_id": 66,
+            "full_name": "lorrie_becker",
+            "avg_spending": 23026.28
+        },
+        {
+            "customer_id": 35,
+            "full_name": "guillermina_noble",
+            "avg_spending": 22061.06
+        },
+        {
+            "customer_id": 136,
+            "full_name": "sarita_parks",
+            "avg_spending": 21830.96
+        },
+        {
+            "customer_id": 38,
+            "full_name": "zelma_browning",
+            "avg_spending": 21535.66
+        },
+        {
+            "customer_id": 58,
+            "full_name": "damien_dorsey",
+            "avg_spending": 21514.44
+        },
+        {
+            "customer_id": 4,
+            "full_name": "daryl_spence",
+            "avg_spending": 21150.88
+        },
+        {
+            "customer_id": 1214,
+            "full_name": "brigid_sharp",
+            "avg_spending": 20648.95
+        },
+        {
+            "customer_id": 425,
+            "full_name": "augustina_joyner",
+            "avg_spending": 20509.42
+        },
+        {
+            "customer_id": 238,
+            "full_name": "cindi_larson",
+            "avg_spending": 20177.74
+        },
+        {
+            "customer_id": 63,
+            "full_name": "tenisha_lyons",
+            "avg_spending": 20086.36
+        },
+        {
+            "customer_id": 28,
+            "full_name": "jeanice_frost",
+            "avg_spending": 19992.85
+        },
+        {
+            "customer_id": 31,
+            "full_name": "williemae_holloway",
+            "avg_spending": 19756.63
+        },
+        {
+            "customer_id": 1023,
+            "full_name": "adena_blake",
+            "avg_spending": 19329.94
+        },
+        {
+            "customer_id": 2,
+            "full_name": "kasha_todd",
+            "avg_spending": 19329.07
+        },
+        {
+            "customer_id": 33,
+            "full_name": "deloris_burke",
+            "avg_spending": 19043.89
+        },
+        {
+            "customer_id": 82,
+            "full_name": "lizzie_joyner",
+            "avg_spending": 18995.0
+        },
+        {
+            "customer_id": 91,
+            "full_name": "marvin_mullins",
+            "avg_spending": 18856.87
+        },
+        {
+            "customer_id": 464,
+            "full_name": "bess_mcbride",
+            "avg_spending": 18853.35
+        },
+        {
+            "customer_id": 1100,
+            "full_name": "penny_acevedo",
+            "avg_spending": 18670.92
+        },
+        {
+            "customer_id": 227,
+            "full_name": "danielle_bond",
+            "avg_spending": 18553.72
+        },
+        {
+            "customer_id": 108,
+            "full_name": "shae_hickman",
+            "avg_spending": 18281.47
+        },
+        {
+            "customer_id": 1007,
+            "full_name": "jimmy_russell",
+            "avg_spending": 18278.94
+        },
+        {
+            "customer_id": 525,
+            "full_name": "andreas_mayer",
+            "avg_spending": 18114.92
+        },
+        {
+            "customer_id": 32,
+            "full_name": "araceli_golden",
+            "avg_spending": 18037.28
+        },
+        {
+            "customer_id": 157,
+            "full_name": "carola_rodriquez",
+            "avg_spending": 17861.19
+        },
+        {
+            "customer_id": 289,
+            "full_name": "charmain_webster",
+            "avg_spending": 17834.96
+        },
+        {
+            "customer_id": 39,
+            "full_name": "janetta_aguirre",
+            "avg_spending": 17783.48
+        },
+        {
+            "customer_id": 1037,
+            "full_name": "ashanti_hammond",
+            "avg_spending": 17758.34
+        }
+    ],
+    " Best_staff ": [
+        {
+            "staff_id": 7,
+            "full_name": "venita_daniel",
+            "total_sales": 3275794.92
+        }
+    ],
+    " Products_low_stock": [
+        {
+            "product_id": 175,
+            "product_name": "trek_domane_slr_frameset_2018",
+            "quantity_product": 5
+        },
+        {
+            "product_id": 289,
+            "product_name": "electra_superbolt_1_20_2018",
+            "quantity_product": 9
+        },
+        {
+            "product_id": 220,
+            "product_name": "electra_cruiser_1_ladies_2018",
+            "quantity_product": 10
+        },
+        {
+            "product_id": 70,
+            "product_name": "electra_amsterdam_original_3i_20152017",
+            "quantity_product": 11
+        },
+        {
+            "product_id": 105,
+            "product_name": "sun_bicycles_streamway_7_2017",
+            "quantity_product": 11
+        },
+        {
+            "product_id": 51,
+            "product_name": "trek_silque_slr_8_womens_2017",
+            "quantity_product": 12
+        },
+        {
+            "product_id": 82,
+            "product_name": "electra_amsterdam_original_3i_ladies_2017",
+            "quantity_product": 12
+        },
+        {
+            "product_id": 235,
+            "product_name": "electra_koa_3i_ladies_2018",
+            "quantity_product": 12
+        },
+        {
+            "product_id": 251,
+            "product_name": "electra_townie_commute_go_2018",
+            "quantity_product": 12
+        },
+        {
+            "product_id": 302,
+            "product_name": "electra_townie_original_1_2018",
+            "quantity_product": 12
+        },
+        {
+            "product_id": 8,
+            "product_name": "trek_remedy_29_carbon_frameset_2016",
+            "quantity_product": 13
+        },
+        {
+            "product_id": 180,
+            "product_name": "trek_domane_al_3_womens_2018",
+            "quantity_product": 14
+        },
+        {
+            "product_id": 49,
+            "product_name": "trek_domane_sl_6_2017",
+            "quantity_product": 16
+        },
+        {
+            "product_id": 72,
+            "product_name": "sun_bicycles_biscayne_tandem_7_2017",
+            "quantity_product": 16
+        },
+        {
+            "product_id": 91,
+            "product_name": "trek_precaliber_24_21speed_girls_2017",
+            "quantity_product": 16
+        }
+    ],
+    " Revenue_category  ": [
+        {
+            "category_id": 6,
+            "category_name": "mountain_bikes",
+            "Revenue_Category": 3037506.31
+        },
+        {
+            "category_id": 7,
+            "category_name": "road_bikes",
+            "Revenue_Category": 1911626.98
+        },
+        {
+            "category_id": 3,
+            "category_name": "cruisers_bicycles",
+            "Revenue_Category": 1357703.34
+        },
+        {
+            "category_id": 5,
+            "category_name": "electric_bikes",
+            "Revenue_Category": 921768.42
+        },
+        {
+            "category_id": 4,
+            "category_name": "cyclocross_bicycles",
+            "Revenue_Category": 711011.57
+        },
+        {
+            "category_id": 2,
+            "category_name": "comfort_bicycles",
+            "Revenue_Category": 613270.27
+        },
+        {
+            "category_id": 1,
+            "category_name": "children_bicycles",
+            "Revenue_Category": 460197.7
+        }
+    ],
+    " Revenue_store  ": [
+        {
+            "store_id": 2,
+            "store_name": "baldwin_bikes",
+            "Revenue": 6101245.93
+        },
+        {
+            "store_id": 1,
+            "store_name": "santa_cruz_bikes",
+            "Revenue": 1608972.69
+        },
+        {
+            "store_id": 3,
+            "store_name": "rowlett_bikes",
+            "Revenue": 1302865.97
+        }
+    ],
+    " Staff_Performance": [
+        {
+            "staff_id": 6,
+            "full_name": "marcelene_boyer",
+            "Count_order": 553
+        },
+        {
+            "staff_id": 7,
+            "full_name": "venita_daniel",
+            "Count_order": 540
+        },
+        {
+            "staff_id": 3,
+            "full_name": "genna_serrano",
+            "Count_order": 184
+        },
+        {
+            "staff_id": 2,
+            "full_name": "mireya_unknown",
+            "Count_order": 164
+        },
+        {
+            "staff_id": 8,
+            "full_name": "kali_vargas",
+            "Count_order": 88
+        },
+        {
+            "staff_id": 9,
+            "full_name": "layla_terrell",
+            "Count_order": 86
+        }
+    ],
+    " Stores_inventory": [
+        {
+            "store_id": 3,
+            "store_name": "rowlett_bikes",
+            "quantity_product": 4620
+        },
+        {
+            "store_id": 1,
+            "store_name": "santa_cruz_bikes",
+            "quantity_product": 4532
+        },
+        {
+            "store_id": 2,
+            "store_name": "baldwin_bikes",
+            "quantity_product": 4359
+        }
+    ],
+    " top_customers_spending": [
+        {
+            "customer_id": 19,
+            "full_name": "lizzette_stein",
+            "spending": 451839.2
+        },
+        {
+            "customer_id": 730,
+            "full_name": "andria_rivers",
+            "spending": 432702.54
+        },
+        {
+            "customer_id": 1226,
+            "full_name": "qiana_jackson",
+            "spending": 198805.01
+        },
+        {
+            "customer_id": 1002,
+            "full_name": "cami_williamson",
+            "spending": 123367.22
+        },
+        {
+            "customer_id": 222,
+            "full_name": "anya_contreras",
+            "spending": 80696.69
+        }
+    ],
+    "Customers_no_orders": [],
+    "Monthly_sales": [
+        {
+            "years": 2016,
+            "months": 1,
+            "Revenue_Month": 184750.0
+        },
+        {
+            "years": 2016,
+            "months": 2,
+            "Revenue_Month": 156112.0
+        },
+        {
+            "years": 2016,
+            "months": 3,
+            "Revenue_Month": 180600.0
+        },
+        {
+            "years": 2016,
+            "months": 4,
+            "Revenue_Month": 167144.0
+        },
+        {
+            "years": 2016,
+            "months": 5,
+            "Revenue_Month": 205270.0
+        },
+        {
+            "years": 2016,
+            "months": 6,
+            "Revenue_Month": 210562.0
+        },
+        {
+            "years": 2016,
+            "months": 7,
+            "Revenue_Month": 199557.0
+        },
+        {
+            "years": 2016,
+            "months": 8,
+            "Revenue_Month": 225657.0
+        },
+        {
+            "years": 2016,
+            "months": 9,
+            "Revenue_Month": 273091.0
+        },
+        {
+            "years": 2016,
+            "months": 10,
+            "Revenue_Month": 212078.0
+        },
+        {
+            "years": 2016,
+            "months": 11,
+            "Revenue_Month": 182329.0
+        },
+        {
+            "years": 2016,
+            "months": 12,
+            "Revenue_Month": 199830.0
+        },
+        {
+            "years": 2017,
+            "months": 1,
+            "Revenue_Month": 285616.0
+        },
+        {
+            "years": 2017,
+            "months": 2,
+            "Revenue_Month": 312923.0
+        },
+        {
+            "years": 2017,
+            "months": 3,
+            "Revenue_Month": 308912.0
+        },
+        {
+            "years": 2017,
+            "months": 4,
+            "Revenue_Month": 227291.0
+        },
+        {
+            "years": 2017,
+            "months": 5,
+            "Revenue_Month": 268233.0
+        },
+        {
+            "years": 2017,
+            "months": 6,
+            "Revenue_Month": 378865.0
+        },
+        {
+            "years": 2017,
+            "months": 7,
+            "Revenue_Month": 229995.0
+        },
+        {
+            "years": 2017,
+            "months": 8,
+            "Revenue_Month": 290553.0
+        },
+        {
+            "years": 2017,
+            "months": 9,
+            "Revenue_Month": 293405.0
+        },
+        {
+            "years": 2017,
+            "months": 10,
+            "Revenue_Month": 1624203.0
+        },
+        {
+            "years": 2017,
+            "months": 11,
+            "Revenue_Month": 281578.0
+        },
+        {
+            "years": 2017,
+            "months": 12,
+            "Revenue_Month": 259506.0
+        },
+        {
+            "years": 2018,
+            "months": 1,
+            "Revenue_Month": 353345.0
+        },
+        {
+            "years": 2018,
+            "months": 2,
+            "Revenue_Month": 200658.0
+        },
+        {
+            "years": 2018,
+            "months": 3,
+            "Revenue_Month": 363991.0
+        },
+        {
+            "years": 2018,
+            "months": 4,
+            "Revenue_Month": 817921.0
+        },
+        {
+            "years": 2018,
+            "months": 6,
+            "Revenue_Month": 189.0
+        },
+        {
+            "years": 2018,
+            "months": 7,
+            "Revenue_Month": 11338.0
+        },
+        {
+            "years": 2018,
+            "months": 8,
+            "Revenue_Month": 8378.0
+        },
+        {
+            "years": 2018,
+            "months": 9,
+            "Revenue_Month": 8964.0
+        },
+        {
+            "years": 2018,
+            "months": 10,
+            "Revenue_Month": 6932.0
+        },
+        {
+            "years": 2018,
+            "months": 11,
+            "Revenue_Month": 11794.0
+        },
+        {
+            "years": 2018,
+            "months": 12,
+            "Revenue_Month": 13034.0
+        },
+        {
+            "years": 2080,
+            "months": 1,
+            "Revenue_Month": 58481.0
+        }
+    ],
+    "Top_products": [
+        {
+            "product_id": 6,
+            "product_name": "surly_ice_cream_truck_frameset_2016",
+            "quantity_product": 167
+        },
+        {
+            "product_id": 13,
+            "product_name": "electra_cruiser_1_24inch_2016",
+            "quantity_product": 157
+        },
+        {
+            "product_id": 16,
+            "product_name": "electra_townie_original_7d_eq_2016",
+            "quantity_product": 156
+        },
+        {
+            "product_id": 23,
+            "product_name": "electra_girls_hawaii_1_20inch_20152016",
+            "quantity_product": 154
+        },
+        {
+            "product_id": 7,
+            "product_name": "trek_slash_8_275_2016",
+            "quantity_product": 154
+        },
+        {
+            "product_id": 12,
+            "product_name": "electra_townie_original_21d_2016",
+            "quantity_product": 153
+        },
+        {
+            "product_id": 11,
+            "product_name": "surly_straggler_650b_2016",
+            "quantity_product": 151
+        },
+        {
+            "product_id": 25,
+            "product_name": "electra_townie_original_7d_20152016",
+            "quantity_product": 148
+        },
+        {
+            "product_id": 10,
+            "product_name": "surly_straggler_2016",
+            "quantity_product": 147
+        },
+        {
+            "product_id": 9,
+            "product_name": "trek_conduit_2016",
+            "quantity_product": 145
+        }
+    ]
+}

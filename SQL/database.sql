@@ -1,6 +1,6 @@
-CREATE DATABASE  Retail_DB ;
+CREATE DATABASE  Retaill_DB ;
 
-USE Retail_DB
+USE Retaill_DB
 
 
 
@@ -9,7 +9,7 @@ USE Retail_DB
 CREATE TABLE Brands (
 
 brand_id INT PRIMARY KEY  , 
-brand_name VARCHAR(40) 
+brand_name VARCHAR(150) 
 );
 
 
@@ -18,7 +18,7 @@ brand_name VARCHAR(40)
 CREATE TABLE Categories (
 
 category_id INT PRIMARY KEY  , 
-category_name VARCHAR(40) 
+category_name VARCHAR(150) 
 );
 
 
@@ -28,15 +28,15 @@ category_name VARCHAR(40)
 CREATE TABLE Customers (
 
 customer_id INT PRIMARY KEY  , 
-first_name VARCHAR(40) ,
-last_name VARCHAR(40) ,
-full_name AS (first_name + ' ' + last_name),
-phone VARCHAR(40) ,
-email VARCHAR(100) ,  
-street VARCHAR(100) ,
-city VARCHAR(40) ,
-state VARCHAR(40) ,
-zip_code INT    
+first_name VARCHAR(150) ,
+last_name VARCHAR(150) ,
+phone VARCHAR(150) ,
+email VARCHAR(150) ,  
+street VARCHAR(150) ,
+city VARCHAR(150) ,
+state VARCHAR(150) ,
+zip_code INT  ,
+full_name VARCHAR(150)
 
 );
 
@@ -49,12 +49,12 @@ CREATE TABLE Stores (
 
 store_id INT PRIMARY KEY  , 
 
-store_name VARCHAR(40) ,
-phone VARCHAR(40) ,
-email VARCHAR(100) , 
-street VARCHAR(40) ,
-city VARCHAR(40) ,
-state VARCHAR(40) ,
+store_name VARCHAR(150) ,
+phone VARCHAR(150) ,
+email VARCHAR(150) , 
+street VARCHAR(150) ,
+city VARCHAR(150) ,
+state VARCHAR(150) ,
 zip_code INT    
 
 );
@@ -66,15 +66,17 @@ CREATE TABLE Staffs (
 
 staff_id INT PRIMARY KEY  , 
 
-first_name VARCHAR(40) ,
-last_name VARCHAR(40) ,
-full_name AS (first_name + ' ' + last_name),
+first_name VARCHAR(150) ,
+last_name VARCHAR(150) ,
 active BIT ,
-phone VARCHAR(40) ,
-email VARCHAR(40) , 
+phone VARCHAR(150) ,
+email VARCHAR(150) , 
+
 store_id INT NULL FOREIGN KEY REFERENCES  Stores(store_id),
 
-manager_id INT NULL  FOREIGN KEY REFERENCES  Staffs(staff_id)
+manager_id INT NULL  FOREIGN KEY REFERENCES  Staffs(staff_id),
+full_name VARCHAR(150)
+
 );
 
 
@@ -85,7 +87,7 @@ CREATE TABLE Products (
 
 product_id INT PRIMARY KEY  , 
 
-product_name VARCHAR(40) ,
+product_name VARCHAR(150) ,
  
 brand_id INT FOREIGN KEY REFERENCES  Brands(brand_id),
 
@@ -93,7 +95,10 @@ category_id INT FOREIGN KEY REFERENCES  Categories(category_id),
 
 model_year INT ,
 
-list_price DECIMAL(10,2)
+list_price DECIMAL(10,2),
+brand_name VARCHAR(100),
+category_name VARCHAR(100),
+
 
 );
 
@@ -143,6 +148,13 @@ PRIMARY KEY(store_id , product_id)
 
 );
 
+--OrderTotals
+CREATE TABLE OrderTotals (
+    order_id INT PRIMARY KEY,
+    counts_items INT,
+    sums_money DECIMAL(10,2),
+    CONSTRAINT FK_OrderTotals_Orders FOREIGN KEY (order_id) REFERENCES Orders(order_id)
+);
 
 
 
