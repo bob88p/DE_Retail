@@ -157,7 +157,8 @@ WHERE O.order_id IS NULL
 """
 
 
-SELECT  O.customer_id ,C.full_name, SUM(OT.sums_money) AS avg_spending
+
+SELECT  O.customer_id ,C.full_name,COUNT(O.order_id)AS count_order ,round(AVG(OT.sums_money),2) AS avg_spending
 
 FROM OrderTotals AS OT
 JOIN Orders AS O
@@ -167,7 +168,6 @@ ON C.customer_id = O.customer_id
 
 GROUP BY  O.customer_id , C.full_name
 ORDER BY avg_spending DESC ;
-
 
  """
     
@@ -180,13 +180,13 @@ result_query = {}
 for name , query in queries.items():
     result_query[name] = pd.read_sql(query , engine)
     
-os.makedirs("analysis1", exist_ok=True)
+os.makedirs("analysis2", exist_ok=True)
     
 
 
 def export_csv():
   for name, df in result_query.items():
-    df.to_csv(f"analysis1/{name}.csv", index=False)
+    df.to_csv(f"analysis2/{name}.csv", index=False)
     
     
     

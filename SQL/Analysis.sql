@@ -130,7 +130,7 @@ WHERE O.order_id IS NULL
 --- Average spending per customer  
 
 
-SELECT  O.customer_id ,C.full_name, SUM(OT.sums_money) AS avg_spending
+SELECT  O.customer_id ,C.full_name,COUNT(O.order_id)AS count_order ,round(AVG(OT.sums_money),2) AS avg_spending
 
 FROM OrderTotals AS OT
 JOIN Orders AS O
@@ -140,4 +140,3 @@ ON C.customer_id = O.customer_id
 
 GROUP BY  O.customer_id , C.full_name
 ORDER BY avg_spending DESC ;
-
