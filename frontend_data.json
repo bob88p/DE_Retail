@@ -1,254 +1,304 @@
 {
     " Average_spending  ": [
         {
-            "customer_id": 19,
-            "full_name": "lizzette_stein",
-            "avg_spending": 451839.2
-        },
-        {
             "customer_id": 730,
             "full_name": "andria_rivers",
+            "count_order": 1,
             "avg_spending": 432702.54
         },
         {
             "customer_id": 1226,
             "full_name": "qiana_jackson",
+            "count_order": 1,
             "avg_spending": 198805.01
+        },
+        {
+            "customer_id": 19,
+            "full_name": "lizzette_stein",
+            "count_order": 3,
+            "avg_spending": 150613.07
         },
         {
             "customer_id": 1002,
             "full_name": "cami_williamson",
+            "count_order": 1,
             "avg_spending": 123367.22
         },
         {
             "customer_id": 222,
             "full_name": "anya_contreras",
+            "count_order": 1,
             "avg_spending": 80696.69
         },
         {
             "customer_id": 1342,
             "full_name": "lekisha_pope",
+            "count_order": 1,
             "avg_spending": 52778.12
-        },
-        {
-            "customer_id": 94,
-            "full_name": "sharyn_hopkins",
-            "avg_spending": 34807.93
-        },
-        {
-            "customer_id": 10,
-            "full_name": "pamelia_newman",
-            "avg_spending": 33634.24
-        },
-        {
-            "customer_id": 75,
-            "full_name": "abby_gamble",
-            "avg_spending": 32802.99
-        },
-        {
-            "customer_id": 6,
-            "full_name": "lyndsey_bean",
-            "avg_spending": 32675.06
-        },
-        {
-            "customer_id": 16,
-            "full_name": "emmitt_sanchez",
-            "avg_spending": 31925.87
-        },
-        {
-            "customer_id": 73,
-            "full_name": "melanie_hayes",
-            "avg_spending": 31913.68
-        },
-        {
-            "customer_id": 1,
-            "full_name": "debra_burks",
-            "avg_spending": 27888.17
-        },
-        {
-            "customer_id": 3,
-            "full_name": "tameka_fisher",
-            "avg_spending": 27202.64
-        },
-        {
-            "customer_id": 61,
-            "full_name": "elinore_aguilar",
-            "avg_spending": 25636.43
-        },
-        {
-            "customer_id": 93,
-            "full_name": "corrina_sawyer",
-            "avg_spending": 25612.69
         },
         {
             "customer_id": 122,
             "full_name": "shena_carter",
+            "count_order": 1,
             "avg_spending": 24890.62
         },
         {
             "customer_id": 1224,
             "full_name": "abram_copeland",
+            "count_order": 1,
             "avg_spending": 24607.02
-        },
-        {
-            "customer_id": 9,
-            "full_name": "genoveva_baldwin",
-            "avg_spending": 24433.87
-        },
-        {
-            "customer_id": 12,
-            "full_name": "robby_sykes",
-            "avg_spending": 24305.13
-        },
-        {
-            "customer_id": 85,
-            "full_name": "teofila_fischer",
-            "avg_spending": 23195.06
-        },
-        {
-            "customer_id": 43,
-            "full_name": "mozelle_carter",
-            "avg_spending": 23049.04
-        },
-        {
-            "customer_id": 66,
-            "full_name": "lorrie_becker",
-            "avg_spending": 23026.28
-        },
-        {
-            "customer_id": 35,
-            "full_name": "guillermina_noble",
-            "avg_spending": 22061.06
-        },
-        {
-            "customer_id": 136,
-            "full_name": "sarita_parks",
-            "avg_spending": 21830.96
-        },
-        {
-            "customer_id": 38,
-            "full_name": "zelma_browning",
-            "avg_spending": 21535.66
-        },
-        {
-            "customer_id": 58,
-            "full_name": "damien_dorsey",
-            "avg_spending": 21514.44
-        },
-        {
-            "customer_id": 4,
-            "full_name": "daryl_spence",
-            "avg_spending": 21150.88
         },
         {
             "customer_id": 1214,
             "full_name": "brigid_sharp",
+            "count_order": 1,
             "avg_spending": 20648.95
         },
         {
             "customer_id": 425,
             "full_name": "augustina_joyner",
+            "count_order": 1,
             "avg_spending": 20509.42
         },
         {
             "customer_id": 238,
             "full_name": "cindi_larson",
+            "count_order": 1,
             "avg_spending": 20177.74
-        },
-        {
-            "customer_id": 63,
-            "full_name": "tenisha_lyons",
-            "avg_spending": 20086.36
-        },
-        {
-            "customer_id": 28,
-            "full_name": "jeanice_frost",
-            "avg_spending": 19992.85
-        },
-        {
-            "customer_id": 31,
-            "full_name": "williemae_holloway",
-            "avg_spending": 19756.63
         },
         {
             "customer_id": 1023,
             "full_name": "adena_blake",
+            "count_order": 1,
             "avg_spending": 19329.94
-        },
-        {
-            "customer_id": 2,
-            "full_name": "kasha_todd",
-            "avg_spending": 19329.07
-        },
-        {
-            "customer_id": 33,
-            "full_name": "deloris_burke",
-            "avg_spending": 19043.89
-        },
-        {
-            "customer_id": 82,
-            "full_name": "lizzie_joyner",
-            "avg_spending": 18995.0
-        },
-        {
-            "customer_id": 91,
-            "full_name": "marvin_mullins",
-            "avg_spending": 18856.87
         },
         {
             "customer_id": 464,
             "full_name": "bess_mcbride",
+            "count_order": 1,
             "avg_spending": 18853.35
         },
         {
             "customer_id": 1100,
             "full_name": "penny_acevedo",
+            "count_order": 1,
             "avg_spending": 18670.92
         },
         {
             "customer_id": 227,
             "full_name": "danielle_bond",
+            "count_order": 1,
             "avg_spending": 18553.72
         },
         {
             "customer_id": 108,
             "full_name": "shae_hickman",
+            "count_order": 1,
             "avg_spending": 18281.47
         },
         {
             "customer_id": 1007,
             "full_name": "jimmy_russell",
+            "count_order": 1,
             "avg_spending": 18278.94
         },
         {
             "customer_id": 525,
             "full_name": "andreas_mayer",
+            "count_order": 1,
             "avg_spending": 18114.92
-        },
-        {
-            "customer_id": 32,
-            "full_name": "araceli_golden",
-            "avg_spending": 18037.28
-        },
-        {
-            "customer_id": 157,
-            "full_name": "carola_rodriquez",
-            "avg_spending": 17861.19
         },
         {
             "customer_id": 289,
             "full_name": "charmain_webster",
+            "count_order": 1,
             "avg_spending": 17834.96
-        },
-        {
-            "customer_id": 39,
-            "full_name": "janetta_aguirre",
-            "avg_spending": 17783.48
         },
         {
             "customer_id": 1037,
             "full_name": "ashanti_hammond",
+            "count_order": 1,
             "avg_spending": 17758.34
+        },
+        {
+            "customer_id": 182,
+            "full_name": "jenniffer_bullock",
+            "count_order": 1,
+            "avg_spending": 17746.59
+        },
+        {
+            "customer_id": 1005,
+            "full_name": "ruthanne_franco",
+            "count_order": 1,
+            "avg_spending": 17611.95
+        },
+        {
+            "customer_id": 607,
+            "full_name": "paul_lester",
+            "count_order": 1,
+            "avg_spending": 17580.71
+        },
+        {
+            "customer_id": 1421,
+            "full_name": "edris_barrett",
+            "count_order": 1,
+            "avg_spending": 17494.93
+        },
+        {
+            "customer_id": 339,
+            "full_name": "tamela_harrell",
+            "count_order": 1,
+            "avg_spending": 17479.95
+        },
+        {
+            "customer_id": 94,
+            "full_name": "sharyn_hopkins",
+            "count_order": 2,
+            "avg_spending": 17403.97
+        },
+        {
+            "customer_id": 383,
+            "full_name": "ashlee_pena",
+            "count_order": 1,
+            "avg_spending": 17305.93
+        },
+        {
+            "customer_id": 1391,
+            "full_name": "sheryl_chase",
+            "count_order": 1,
+            "avg_spending": 17086.93
+        },
+        {
+            "customer_id": 976,
+            "full_name": "ayanna_cherry",
+            "count_order": 1,
+            "avg_spending": 16950.07
+        },
+        {
+            "customer_id": 651,
+            "full_name": "laure_pena",
+            "count_order": 1,
+            "avg_spending": 16890.14
+        },
+        {
+            "customer_id": 534,
+            "full_name": "alejandro_haney",
+            "count_order": 1,
+            "avg_spending": 16846.95
+        },
+        {
+            "customer_id": 1382,
+            "full_name": "wynona_douglas",
+            "count_order": 1,
+            "avg_spending": 16491.51
+        },
+        {
+            "customer_id": 184,
+            "full_name": "klara_stanley",
+            "count_order": 1,
+            "avg_spending": 16436.06
+        },
+        {
+            "customer_id": 75,
+            "full_name": "abby_gamble",
+            "count_order": 2,
+            "avg_spending": 16401.5
+        },
+        {
+            "customer_id": 73,
+            "full_name": "melanie_hayes",
+            "count_order": 2,
+            "avg_spending": 15956.84
+        },
+        {
+            "customer_id": 971,
+            "full_name": "samual_warner",
+            "count_order": 1,
+            "avg_spending": 15876.42
+        },
+        {
+            "customer_id": 1199,
+            "full_name": "consuela_collier",
+            "count_order": 1,
+            "avg_spending": 15455.62
+        },
+        {
+            "customer_id": 908,
+            "full_name": "delmar_wise",
+            "count_order": 1,
+            "avg_spending": 15439.94
+        },
+        {
+            "customer_id": 809,
+            "full_name": "elnora_simpson",
+            "count_order": 1,
+            "avg_spending": 15416.15
+        },
+        {
+            "customer_id": 1132,
+            "full_name": "parthenia_holman",
+            "count_order": 1,
+            "avg_spending": 15205.92
+        },
+        {
+            "customer_id": 840,
+            "full_name": "gilbert_calhoun",
+            "count_order": 1,
+            "avg_spending": 15097.9
+        },
+        {
+            "customer_id": 531,
+            "full_name": "kimberely_bowen",
+            "count_order": 1,
+            "avg_spending": 15087.26
+        },
+        {
+            "customer_id": 195,
+            "full_name": "addie_hahn",
+            "count_order": 1,
+            "avg_spending": 14935.02
+        },
+        {
+            "customer_id": 374,
+            "full_name": "candelaria_coffey",
+            "count_order": 1,
+            "avg_spending": 14735.41
+        },
+        {
+            "customer_id": 663,
+            "full_name": "alissa_hood",
+            "count_order": 1,
+            "avg_spending": 14567.15
+        },
+        {
+            "customer_id": 1131,
+            "full_name": "desmond_rose",
+            "count_order": 1,
+            "avg_spending": 14566.43
+        },
+        {
+            "customer_id": 263,
+            "full_name": "dortha_jarvis",
+            "count_order": 1,
+            "avg_spending": 14405.04
+        },
+        {
+            "customer_id": 904,
+            "full_name": "jana_thomas",
+            "count_order": 1,
+            "avg_spending": 14397.13
+        },
+        {
+            "customer_id": 1171,
+            "full_name": "earlean_pena",
+            "count_order": 1,
+            "avg_spending": 14249.64
+        },
+        {
+            "customer_id": 167,
+            "full_name": "loreta_johnston",
+            "count_order": 1,
+            "avg_spending": 14172.21
         }
     ],
     " Best_staff ": [
